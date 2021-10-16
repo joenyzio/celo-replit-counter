@@ -443,7 +443,7 @@ export default function App() {
           padding: 40,
         }}
       >
-        <h1 style={{ textAlign: "center" }}>Celo Level Selector 🛗</h1>
+        <h1 style={{ textAlign: "center" }}>Celo Counter ➕</h1>
         <a
           style={{ whiteSpace: "nowrap" }}
           href="https://metamask.io/"
@@ -525,7 +525,7 @@ export default function App() {
             className="main-title"
             style={{ paddingBottom: "var(--space-8)" }}
           >
-            Celo Level Selector 🛗
+            Celo Counter ➕
           </h1>
           {walletAddress && <ChainInfo chainId={chainId} />}
         </VStack>
